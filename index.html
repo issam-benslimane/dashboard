@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="sidebar">
+        <div class="logo">
+          <img src="assets/view-dashboard.svg" alt="" />
+          Dashboard
+        </div>
+        <nav class="sidebar__nav">
+          <ul class="list__list list">
+            <li class="list__item">
+              <a href="#" class="list__link"
+                ><img src="assets/home.svg" alt="" class="icon" />Home</a
+              >
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link"
+                ><img
+                  src="assets/account-outline.svg"
+                  alt=""
+                  class="icon"
+                />Profile</a
+              >
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link"
+                ><img src="assets/message.svg" alt="" class="icon" />Messages</a
+              >
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link"
+                ><img
+                  src="assets/clipboard-text-clock.svg"
+                  alt=""
+                  class="icon"
+                />History</a
+              >
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link"
+                ><img
+                  src="assets/file-multiple.svg"
+                  alt=""
+                  class="icon"
+                />Tasks</a
+              >
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link"
+                ><img
+                  src="assets/account-group.svg"
+                  alt=""
+                  class="icon"
+                />Communities</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="sidebar__help list">
+          <li class="list__item">
+            <a href="#" class="list__link"
+              ><img src="assets/cog.svg" alt="" class="icon" />Settings</a
+            >
+          </li>
+          <li class="list__item">
+            <a href="#" class="list__link"
+              ><img src="assets/face-agent.svg" alt="" class="icon" />Support</a
+            >
+          </li>
+          <li class="list__item">
+            <a href="#" class="list__link"
+              ><img
+                src="assets/shield-check.svg"
+                alt=""
+                class="icon"
+              />Privacy</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="topbar">
+        <div>
+          <div class="topbar__search">
+            <label for="search" class="sr-only">search for a project</label>
+            <img src="assets/magnify.svg" alt="" />
+            <input type="search" name="search" id="search" />
+          </div>
+          <button class="btn btn--icon">
+            <img src="assets/bell-ring-outline.svg" alt="" />
+          </button>
+          <button
+            class="btn btn--icon profile"
+            aria-label="profile settings"
+          ></button>
+          <span class="user">travis scott</span>
+        </div>
+        <div>
+          <div class="user-info">
+            <span class="profile profile--lg" aria-hidden="true"></span>
+            <p><span>Hi there,</span> Travis Scott (@travis)</p>
+          </div>
+          <div class="btns">
+            <button class="btn btn--primary">New</button
+            ><button class="btn btn--primary">Upload</button
+            ><button class="btn btn--primary">Share</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="projects">
+          <h2 class="heading heading--primary">your projects</h2>
+          <ul class="projects__list">
+            <li class="project">
+              <h3 class="heading heading--secondary">super cool project</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Debitis, enim.
+              </p>
+              <div class="icons">
+                <button class="btn btn--icon" aria-label="star">
+                  <img src="assets/star-plus-outline.svg" alt="" />
+                </button>
+                <button class="btn btn--icon" aria-label="view">
+                  <img src="assets/eye-plus-outline.svg" alt="" />
+                </button>
+                <button class="btn btn--icon" aria-label="share">
+                  <img src="assets/share-variant-outline.svg" alt="" />
+                </button>
+              </div>
+            </li>
+            <li class="project">
+              <h3 class="heading heading--secondary">super cool project</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Debitis, enim.
+              </p>
+              <div class="icons">
+                <button class="btn btn--icon" aria-label="star">
+                  <img src="assets/star-plus-outline.svg" alt="" />
+                </button>
+                <button class="btn btn--icon" aria-label="view">
+                  <img src="assets/eye-plus-outline.svg" alt="" />
+                </button>
+                <button class="btn btn--icon" aria-label="share">
+                  <img src="assets/share-variant-outline.svg" alt="" />
+                </button>
+              </div>
+            </li>
+            <li class="project">
+              <h3 class="heading heading--secondary">super cool project</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Debitis, enim.
+              </p>
+              <div class="icons">
+                <button class="btn btn--icon" aria-label="star">
+                  <img src="assets/star-plus-outline.svg" alt="" />
+                </button>
+                <button class="btn btn--icon" aria-label="view">
+                  <img src="assets/eye-plus-outline.svg" alt="" />
+                </button>
+                <button class="btn btn--icon" aria-label="share">
+                  <img src="assets/share-variant-outline.svg" alt="" />
+                </button>
+              </div>
+            </li>
+        </li>
+        <li class="project">
+          <h3 class="heading heading--secondary">super cool project</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Debitis, enim.
+          </p>
+          <div class="icons">
+            <button class="btn btn--icon" aria-label="star">
+              <img src="assets/star-plus-outline.svg" alt="" />
+            </button>
+            <button class="btn btn--icon" aria-label="view">
+              <img src="assets/eye-plus-outline.svg" alt="" />
+            </button>
+            <button class="btn btn--icon" aria-label="share">
+              <img src="assets/share-variant-outline.svg" alt="" />
+            </button>
+          </div>
+        </li>
+    </li>
+    <li class="project">
+      <h3 class="heading heading--secondary">super cool project</h3>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Debitis, enim.
+      </p>
+      <div class="icons">
+        <button class="btn btn--icon" aria-label="star">
+          <img src="assets/star-plus-outline.svg" alt="" />
+        </button>
+        <button class="btn btn--icon" aria-label="view">
+          <img src="assets/eye-plus-outline.svg" alt="" />
+        </button>
+        <button class="btn btn--icon" aria-label="share">
+          <img src="assets/share-variant-outline.svg" alt="" />
+        </button>
+      </div>
+    </li>
+</li>
+<li class="project">
+  <h3 class="heading heading--secondary">super cool project</h3>
+  <p class="text">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Debitis, enim.
+  </p>
+  <div class="icons">
+    <button class="btn btn--icon" aria-label="star">
+      <img src="assets/star-plus-outline.svg" alt="" />
+    </button>
+    <button class="btn btn--icon" aria-label="view">
+      <img src="assets/eye-plus-outline.svg" alt="" />
+    </button>
+    <button class="btn btn--icon" aria-label="share">
+      <img src="assets/share-variant-outline.svg" alt="" />
+    </button>
+  </div>
+</li>
+          </ul>
+        </div>
+
+        <div class="announcements">
+            <h2 class="heading heading--primary">announcements</h2>
+            <div>
+                <div>
+                    <h3 class="heading heading--secondary">site maintenance</h3>
+                    <p class="text text--sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quibusdam!</p>
+                </div>
+                <div>
+                    <h3 class="heading heading--secondary">site maintenance</h3>
+                    <p class="text text--sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quibusdam!</p>
+                </div>
+                <div>
+                    <h3 class="heading heading--secondary">site maintenance</h3>
+                    <p class="text text--sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quibusdam!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="trending">
+            <h2 class="heading heading--primary">trending</h2>
+            <div>
+                <div>
+                    <span class="profile"></span>
+                    <p class="text text--sm"><span>@scott</span>Super cool project</p>
+                </div>
+                <div>
+                    <span class="profile"></span>
+                    <p class="text text--sm"><span>@scott</span>Super cool project</p>
+                </div>
+                <div>
+                    <span class="profile"></span>
+                    <p class="text text--sm"><span>@scott</span>Super cool project</p>
+                </div>
+                <div>
+                    <span class="profile"></span>
+                    <p class="text text--sm"><span>@scott</span>Super cool project</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
